@@ -1,0 +1,128 @@
+* {
+  max-width: 700px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.logo {
+  width: 100%;
+  text-align: center;
+}
+.logo img {
+  width: 150px;
+  padding: 10px;
+}
+
+.tete {
+  width: 100%;
+  padding: 10px 0PX 10PX 0PX;
+  text-align: center;
+  background-color: #eaeaea;
+  box-shadow: inset 0px 5px 5px 0px #cbcaca;
+}
+.tete .recherche__localis {
+  margin-right: 12px;
+}
+.tete .recherche__localis .recherche__place {
+  border-radius: 13px;
+  border: none;
+  max-width: 10em;
+  padding: 0.5em 0.5em 0.5em 1em;
+}
+
+.titres {
+  text-align: center;
+  width: 100%;
+  padding: 40px 0 40px 0;
+  background-color: #f4f4f4;
+}
+.titres .titres__h1 {
+  margin: auto;
+  width: 70%;
+}
+.titres .titres--h2 {
+  margin-top: 20px;
+  width: 90%;
+}
+.titres .btn {
+  margin-top: 25px;
+}
+
+.fonctionnement {
+  width: 100%;
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
+.fonctionnement h2 {
+  padding-left: 20px;
+  padding-bottom: 15px;
+}
+.fonctionnement .fonctionnement__liste {
+  text-align: center;
+  margin: 18px;
+  box-shadow: 0px 5px 10px 2px #d8d7d7;
+  padding: 15px;
+  border-radius: 15px;
+  background-color: #f4f4f4;
+}
+
+.partie_resturants {
+  width: 100%;
+  background-color: #f4f4f4;
+}
+.partie_resturants .resturants {
+  width: 100%;
+}
+.partie_resturants .resturants h2 {
+  padding-left: 20px;
+  padding-bottom: 20px;
+  padding-top: 50px;
+}
+.partie_resturants .resturants .resturants__contenu {
+  padding-bottom: 50px;
+}
+.partie_resturants .resturants .resturants__contenu img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 20px 20px 0 0;
+}
+.partie_resturants .resturants .resturants__contenu .resturants__figure {
+  margin: 0px 20px 20px 20px;
+  box-shadow: 2px 1px 5px 2px #d1d1d1;
+  background-color: white;
+  border-radius: 25px;
+}
+.partie_resturants .resturants .resturants__contenu .ressturants__figcaption {
+  padding: 10PX 30PX 5PX 15PX;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.partie_resturants .resturants .resturants__contenu .ressturants__figcaption p {
+  margin-bottom: 10px;
+}
+.partie_resturants .resturants .resturants__contenu .ressturants__figcaption .resturants__coeur {
+  font-size: 2em;
+}
+
+footer {
+  background-color: #353535;
+  color: aliceblue;
+}
+footer .footer__contenu {
+  padding: 23px;
+}
+footer .footer__contenu .footer__logo {
+  filter: invert(1);
+  height: 1.3em;
+  margin-bottom: 10px;
+}
+footer .footer__contenu .fotter__list {
+  list-style: none;
+}
+footer .footer__contenu .fotter__listitem {
+  margin-bottom: 8px;
+}
+
+/*# sourceMappingURL=style.css.map */
