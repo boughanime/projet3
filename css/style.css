@@ -2,22 +2,25 @@
   max-width: 700px;
   margin: 0px;
   padding: 0px;
+  font-family: "Roboto", sans-serif;
 }
 
 .logo {
   width: 100%;
   text-align: center;
 }
-.logo img {
+.logo .logo__img {
   width: 150px;
   padding: 10px;
+  margin-top: 10px;
 }
 
 .tete {
   width: 100%;
-  padding: 10px 0PX 10PX 0PX;
-  text-align: center;
+  padding: 13px 0PX 13PX 0PX;
   background-color: #eaeaea;
+  display: flex;
+  justify-content: center;
   box-shadow: inset 0px 5px 5px 0px #cbcaca;
 }
 .tete .recherche__localis {
@@ -26,7 +29,9 @@
 .tete .recherche__localis .recherche__place {
   border-radius: 13px;
   border: none;
+  font-size: 1em;
   max-width: 10em;
+  font-weight: 600;
   padding: 0.5em 0.5em 0.5em 1em;
 }
 
@@ -40,30 +45,58 @@
   margin: auto;
   width: 70%;
 }
-.titres .titres--h2 {
-  margin-top: 20px;
+.titres .titres--p {
+  margin-top: 10px;
+  margin-bottom: 20px;
   width: 90%;
+  font-weight: 100;
+  font-size: 1.2em;
 }
-.titres .btn {
-  margin-top: 25px;
+.titres .titres__btn {
+  border-radius: 50px;
+  color: #f8f5f5;
+  font-size: 1.2em;
+  background: linear-gradient(0deg, #9356DC, #FF79DA);
+  margin: 20px;
+  border: none;
+  box-shadow: 0px 3px 6px 2px #bfbdbd;
+  padding: 2vh 4vw;
 }
 
 .fonctionnement {
   width: 100%;
-  padding-top: 35px;
-  padding-bottom: 35px;
+  padding-top: 12%;
+  padding-bottom: 20%;
 }
-.fonctionnement h2 {
+.fonctionnement .fonctionnement__tetre {
   padding-left: 20px;
-  padding-bottom: 15px;
+  padding-bottom: 10px;
 }
 .fonctionnement .fonctionnement__liste {
-  text-align: center;
-  margin: 18px;
+  margin: 20px 30px 0 30PX;
   box-shadow: 0px 5px 10px 2px #d8d7d7;
-  padding: 15px;
+  padding: 20px;
   border-radius: 15px;
-  background-color: #f4f4f4;
+  background-color: #f8f5f5;
+  display: flex;
+}
+.fonctionnement .fonctionnement__liste .fonctionnement__step {
+  position: absolute;
+  left: 17px;
+  background-color: #9356DC;
+  border-radius: 50%;
+  padding: 4.2px 9px 4.2px 9px;
+  margin-top: -3px;
+  color: #f8f5f5;
+}
+.fonctionnement .fonctionnement__liste .fonctionnement__incons {
+  margin-left: 15px;
+  margin-right: 25px;
+  opacity: 0.5;
+  font-size: x-large;
+}
+.fonctionnement .fonctionnement__liste .fonctionnement__texte {
+  font-weight: 600;
 }
 
 .partie_resturants {
@@ -75,23 +108,36 @@
 }
 .partie_resturants .resturants h2 {
   padding-left: 20px;
-  padding-bottom: 20px;
+  padding-bottom: 25px;
   padding-top: 50px;
 }
 .partie_resturants .resturants .resturants__contenu {
   padding-bottom: 50px;
 }
-.partie_resturants .resturants .resturants__contenu img {
+.partie_resturants .resturants .resturants__contenu .ressturants__tag {
+  position: absolute;
+  right: 7%;
+  color: #2fa487;
+  background-color: #99E2D0;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  margin-top: 3%;
+  margin-right: 2%;
+  font-weight: 500;
+  font-size: 1.2em;
+}
+.partie_resturants .resturants .resturants__contenu .ressturants__img {
   width: 100%;
-  height: 180px;
+  height: 48vw;
   object-fit: cover;
+  object-position: bottom;
   border-radius: 20px 20px 0 0;
 }
 .partie_resturants .resturants .resturants__contenu .resturants__figure {
   margin: 0px 20px 20px 20px;
   box-shadow: 2px 1px 5px 2px #d1d1d1;
-  background-color: white;
   border-radius: 25px;
+  background-color: #f8f5f5;
 }
 .partie_resturants .resturants .resturants__contenu .ressturants__figcaption {
   padding: 10PX 30PX 5PX 15PX;
@@ -108,7 +154,7 @@
 
 footer {
   background-color: #353535;
-  color: aliceblue;
+  color: #f8f5f5;
 }
 footer .footer__contenu {
   padding: 23px;
@@ -123,6 +169,10 @@ footer .footer__contenu .fotter__list {
 }
 footer .footer__contenu .fotter__listitem {
   margin-bottom: 8px;
+}
+footer .footer__contenu .fotter__listitem .fotter__incons {
+  margin-right: 8px;
+  font-size: x-small;
 }
 
 /*# sourceMappingURL=style.css.map */
