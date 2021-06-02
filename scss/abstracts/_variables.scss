@@ -20,18 +20,3 @@ $margpadd: 10px;
 $margpadd2: $margpadd *2;
 $mainWidth: 100%;
 
-@mixin flex {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-@mixin text-width {
-    text-align: center;
-    width: 100%;
-}
-
-@mixin display {
-
-    display: flex;
-    justify-content: center;
-}

@@ -1,0 +1,15 @@
+@mixin flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@mixin text-width {
+    text-align: center;
+    width: 100%;
+}
+
+@mixin display {
+
+    display: flex;
+    justify-content: center;
+}
