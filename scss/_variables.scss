@@ -1,0 +1,37 @@
+// Variables :
+$tete-color:#eaeaea;
+$fotter-color: #353535;
+$white-color: #f8f5f5;
+$tertiaire-color: #99E2D0;
+$primaire-color:#9356DC;
+$Secondaire-color: #FF79DA;
+$black-color: #0C0B0B;
+$gray-color: #d8d7d7;
+
+// font
+$titres-font: "Shrikhand", sans-serif;
+$texte-font: "Roboto", sans-serif;
+$size-titre: 3em;
+$size-titreweb: 1.8em;
+
+// margin and padding
+
+$margpadd: 10px;
+$margpadd2: $margpadd *2;
+$mainWidth: 100%;
+
+@mixin flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@mixin text-width {
+    text-align: center;
+    width: 100%;
+}
+
+@mixin display {
+
+    display: flex;
+    justify-content: center;
+}

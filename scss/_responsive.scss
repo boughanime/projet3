@@ -1,0 +1,122 @@
+@media screen and (min-width: 1001px){
+
+
+    .logo {
+        height: $margpadd2 *5;
+        .logo__img{
+            width: 350px;
+            }
+    }
+    .tete {
+        
+        .recherche__localis{
+            font-size: $margpadd2 +5;
+            margin-right: $margpadd *3;
+            
+            .recherche__place{
+                font-size: $margpadd2 +5;  
+                margin-bottom: $margpadd;
+                margin-top: $margpadd;
+                     
+            }
+        }  
+    }
+
+    .titres{
+        .titres__h1{
+            padding: 1vw;
+            font-size: $size-titre;
+        }
+        .titres--p{
+            font-weight: 100;
+            font-size: 2em;
+        }
+        .titres__btn{
+            font-size: 2em;
+
+        }
+    }    
+
+    .fonctionnement{
+        padding-top: 4%;
+        padding-bottom: 4%;
+        .fonctionnement__tetre{
+           font-size: $size-titre;
+           padding-bottom: $margpadd2;
+        }
+        .fonctionnement__steps{
+            display: flex;
+            justify-content: space-evenly;
+            padding: 0vh 80px;
+            .fonctionnement__liste{
+                width: $mainWidth /2;
+                margin: 3vh 2vw;
+
+                .fonctionnement__incons{
+                    margin-right: 1vw;
+                    font-size: $size-titre;
+                }
+                .fonctionnement__texte{
+                    font-size: 1.3em;
+                }
+                .fonctionnement__step{
+                   left: unset;
+                   margin-right: 27%;
+                   padding: 10px 16px 10px 16px;
+                   font-size: 1.6em;
+                }
+                   
+            }
+        }
+    }
+    .partie_resturants{
+
+        .resturants{
+            h2{
+                padding-bottom: $margpadd2;
+                font-size: $size-titre;
+            }
+           .resturants__contenu {
+                display: grid;
+                grid-template-columns: $mainWidth/2 $mainWidth/2;
+                
+                .ressturants__tag{
+                    right: unset;
+                    margin-left: 33%;
+                    margin-top: 2%;
+                    font-size: $size-titreweb;
+                    padding: 0.7vw;
+                }
+                .ressturants__img {
+                  height: 22vw;
+                }
+                .resturants__figure{
+                     margin: 2vh 2vw;
+                }
+                .ressturants__figcaption{
+                    font-size: $size-titreweb;
+                }
+             }
+        }
+    }   
+
+    footer{
+
+        .footer__contenu{
+            text-align: center;
+            .footer__logo {
+                height: 3em;
+                margin-bottom: $margpadd;
+                margin-right: unset;
+            }
+            .fotter__listitem{
+                margin: 2vh 0;
+                font-size: $size-titreweb;
+                .fotter__incons{
+                    font-size: inherit;
+                }
+            }
+        }
+    }
+
+}
