@@ -87,6 +87,36 @@
                     font-size: $size-titreweb;
                     padding: 0.7vw;
                 }
+               
+                .cards__btn{
+                    .resturants__coeur{
+                        position: absolute; 
+                        right: unset;
+                        font-size: 2em;
+                        margin-top: 24%;
+                        margin-left: 40%;
+                        font-size: 3em;
+                    }  
+                }
+                .cards__btnanim{
+                    .resturants__coeuranim{
+                        position: absolute; 
+                        right: unset;
+                        font-size: 2em;
+                        margin-top: 24%;
+                        margin-left: 40%;
+                        font-size: 3em;
+                      }
+                }
+
+
+
+
+
+
+
+
+
                 .ressturants__img {
                   height: 22vw;
                 }

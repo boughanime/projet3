@@ -1,13 +1,49 @@
 @import 'variables';
 @import 'animation';
-@import 'mixin'
+@import 'mixin';
+
+
+
+.loading {
+
+    background: white;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    z-index: -5;
+    animation: loadingFade 3s linear 1;
+          
+    &__box {
+      position: absolute;
+      top: 50%;
+      @include flexbox;
+      width: 100%;
+      height: auto;
+      background: white;
+      
+      
+    }
+    &__icon {
+      background: linear-gradient(to left, $Secondaire-color, $primaire-color);
+      background-clip: text;
+      -webkit-background-clip: text;
+      color: transparent;
+      font-size: 130px;
+      z-index: -1;
+      animation: loadingSpinner 3s linear 1;
+    }
+  }
+
 
 .header {
-    display: -webkit-box; 
+    display: -webkit-box;
     display: -moz-box;
     display: -ms-flexbox;
     display: flex;
-    
+    -ms-flex-align: center;
+    -webkit-box-align: center;
+    align-items: center; 
 }
 *{
     box-sizing: border-box;
@@ -72,7 +108,7 @@
         border-radius: $margpadd *5;
         color: lighten($tete-color, 5%);
         font-size: 1.2em;
-        background: linear-gradient(0deg, $primaire-color, $Secondaire-color);
+        background: $btn-color;
         margin: $margpadd2;
         border: none;
         box-shadow: 0px 5px 10px 2px $gray-color;
@@ -156,6 +192,25 @@
                 font-size: 1.2em;
 
             }
+         .cards__btn{
+            .resturants__coeur{ 
+                right: 9%;
+                font-size: 2em;
+                margin-top: 48%;
+                margin-right: 2%;
+            }  
+        }
+        .cards__btnanim{
+            .resturants__coeuranim{
+                right: 9%;
+                font-size: 2em;
+                margin-top: 48%;
+                margin-right: 2%;
+            }
+        }
+          
+
+
             
             .ressturants__img {
                 width: $mainWidth;
@@ -181,13 +236,10 @@
                 @include flex;
                 justify-content: space-between;
                 p{
-                    margin-bottom: $margpadd;
+                    margin-bottom: $margpadd +5;
 
                 }
-                .resturants__coeur
-                {
-                    font-size: 2em;   
-                }  
+                
             }   
         }
     } 

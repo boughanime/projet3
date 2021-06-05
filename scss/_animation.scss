@@ -1,0 +1,104 @@
+.titres{
+    .titres__btn{
+        cursor: pointer;
+        transform: scale(1);
+        transition: transform 400ms;
+       
+        &:hover{
+         transform: scale(1.19);
+         background: lighten($Secondaire-color, 1%);
+         
+         }
+    }
+
+}
+
+ /*.partie_resturants{
+    .cards__btnanim{
+        .resturants__coeuranim{  
+            cursor: pointer;
+            
+            transform: scale(1); 
+            transition: transform 400ms;
+            &:hover{
+                transform: scale(1.19);
+                color: violet;
+                font-weight: 100;
+                
+             }
+        }
+    }
+
+} */
+
+.cards__btn{
+    .far.fa-heart {
+        cursor: pointer;
+        position: absolute;
+        z-index: 5;
+        overflow: hidden;
+        &:hover {
+         transition: color 0.5s ease;
+         color: transparent;
+         }
+         &:hover + .box-hidden {
+         bottom: 30px;
+        }
+  }
+}
+  
+  
+  .cards__btnanim {
+    background: white;
+    transition: all 0.3s ease;
+    z-index: 2;
+    .fas.fa-heart {
+        font-size: 20px;
+        background: linear-gradient(to top, $Secondaire-color, $primaire-color);
+        Background-clip: text;
+       -webkit-background-clip: text;
+       color: transparent;
+    }
+}
+
+
+
+
+
+
+.fonctionnement{
+    .fonctionnement__liste{
+        cursor: pointer;
+        &:hover{
+            background: lighten($primaire-color, 30%);
+        }
+        
+     }
+}
+
+
+@keyframes loadingFade {
+    from {
+      opacity: 1;
+      z-index: 10;
+    }
+    90% {
+      opacity: 1;
+      z-index: 10;
+    }
+    to {
+      opacity: 0;
+      z-index: -5;
+    }
+  }
+  
+  @keyframes loadingSpinner {
+    from {
+      z-index: 15;
+      transform: rotate(0deg);
+    }
+    to {
+      z-index: -5;
+      transform: rotate(1080deg);
+    }
+  }
