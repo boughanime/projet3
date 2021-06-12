@@ -13,33 +13,16 @@
 
 }
 
- /*.partie_resturants{
-    .cards__btnanim{
-        .resturants__coeuranim{  
-            cursor: pointer;
-            
-            transform: scale(1); 
-            transition: transform 400ms;
-            &:hover{
-                transform: scale(1.19);
-                color: violet;
-                font-weight: 100;
-                
-             }
-        }
-    }
 
-} */
-
-.card__icon{
+  .card__icon{
     position: absolute;
     right: 29px;
     .far.fa-heart {
         cursor: pointer;
-        font-size: 20px;
+        font-size: 30px;
         position: absolute;
         right: 10px;
-        bottom: 10px;
+        top: 200px;
         z-index: 5;
         overflow: hidden;
         &:hover {
@@ -54,28 +37,31 @@
       
       .box-hidden {
         position: absolute;
-        width: 20px;
-        height: 20px;
+        width: 30px;
+        height: 25px;
         right: 10px;
-        bottom: 10px;
-        background: white;
+        top: 200px;
+        background: $white-color;
         transition: all 0.3s ease;
         z-index: 2;
       }
       
       
       .fas.fa-heart {
-        font-size: 20px;
+        font-size: 30px;
         position: absolute;
         right: 10px;
-        bottom: 10px;
+        top: 200px;
         background: linear-gradient(to top, $Secondaire-color, $primaire-color);
         -webkit-background-clip: text;
         color: transparent;
       }
-    
+  } 
 
-}
+
+
+
+
 
 
 
