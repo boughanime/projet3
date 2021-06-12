@@ -239,23 +239,6 @@
 }
 .partie_resturants .resturants .resturants__contenu {
   padding-bottom: 50px;
-  /*.cards__btn{
-      .resturants__coeur{ 
-          right: 9%;
-          font-size: 2em;
-          margin-top: 48%;
-          margin-right: 2%;
-      }  
-  }
-  .cards__btnanim{
-      .resturants__coeuranim{
-          right: 9%;
-          font-size: 2em;
-          margin-top: 48%;
-          margin-right: 2%;
-      }
-  }
-    */
 }
 .partie_resturants .resturants .resturants__contenu a {
   text-decoration: none;
@@ -410,45 +393,6 @@ footer .footer__contenu .fotter__listitem a {
   }
   .partie_resturants .resturants .resturants__contenu .ressturants__figcaption {
     font-size: 1.8em;
-  }
-  .partie_resturants .resturants .resturants__contenu .card__icon {
-    position: absolute;
-    right: 29px;
-  }
-  .partie_resturants .resturants .resturants__contenu .card__icon .far.fa-heart {
-    cursor: pointer;
-    font-size: 30px;
-    position: absolute;
-    right: 10px;
-    top: 200px;
-    z-index: 5;
-    overflow: hidden;
-  }
-  .partie_resturants .resturants .resturants__contenu .card__icon .far.fa-heart:hover {
-    transition: color 0.5s ease;
-    color: transparent;
-  }
-  .partie_resturants .resturants .resturants__contenu .card__icon .far.fa-heart:hover + .box-hidden {
-    bottom: 30px;
-  }
-  .partie_resturants .resturants .resturants__contenu .card__icon .box-hidden {
-    position: absolute;
-    width: 30px;
-    height: 25px;
-    right: 10px;
-    top: 200px;
-    background: white;
-    transition: all 0.3s ease;
-    z-index: 2;
-  }
-  .partie_resturants .resturants .resturants__contenu .card__icon .fas.fa-heart {
-    font-size: 30px;
-    position: absolute;
-    right: 10px;
-    top: 200px;
-    background: linear-gradient(to top, #FF79DA, #9356DC);
-    -webkit-background-clip: text;
-    color: transparent;
   }
 
   footer .footer__contenu {
