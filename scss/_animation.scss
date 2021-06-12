@@ -31,34 +31,50 @@
 
 } */
 
-.cards__btn{
+.card__icon{
+    position: absolute;
+    right: 29px;
     .far.fa-heart {
         cursor: pointer;
+        font-size: 20px;
         position: absolute;
+        right: 10px;
+        bottom: 10px;
         z-index: 5;
         overflow: hidden;
         &:hover {
-         transition: color 0.5s ease;
-         color: transparent;
-         }
-         &:hover + .box-hidden {
-         bottom: 30px;
+          transition: color 0.5s ease;
+          color: transparent;
         }
-  }
-}
-  
-  
-  .cards__btnanim {
-    background: white;
-    transition: all 0.3s ease;
-    z-index: 2;
-    .fas.fa-heart {
+        &:hover + .box-hidden {
+          bottom: 30px;
+        }
+      }
+      
+      
+      .box-hidden {
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        right: 10px;
+        bottom: 10px;
+        background: white;
+        transition: all 0.3s ease;
+        z-index: 2;
+      }
+      
+      
+      .fas.fa-heart {
         font-size: 20px;
+        position: absolute;
+        right: 10px;
+        bottom: 10px;
         background: linear-gradient(to top, $Secondaire-color, $primaire-color);
-        Background-clip: text;
-       -webkit-background-clip: text;
-       color: transparent;
-    }
+        -webkit-background-clip: text;
+        color: transparent;
+      }
+    
+
 }
 
 

@@ -25,29 +25,42 @@
     }
 
 } */
-.cards__btn .far.fa-heart {
-  cursor: pointer;
+.card__icon {
   position: absolute;
+  right: 29px;
+}
+.card__icon .far.fa-heart {
+  cursor: pointer;
+  font-size: 20px;
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
   z-index: 5;
   overflow: hidden;
 }
-.cards__btn .far.fa-heart:hover {
+.card__icon .far.fa-heart:hover {
   transition: color 0.5s ease;
   color: transparent;
 }
-.cards__btn .far.fa-heart:hover + .box-hidden {
+.card__icon .far.fa-heart:hover + .box-hidden {
   bottom: 30px;
 }
-
-.cards__btnanim {
+.card__icon .box-hidden {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  right: 10px;
+  bottom: 10px;
   background: white;
   transition: all 0.3s ease;
   z-index: 2;
 }
-.cards__btnanim .fas.fa-heart {
+.card__icon .fas.fa-heart {
   font-size: 20px;
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
   background: linear-gradient(to top, #FF79DA, #9356DC);
-  Background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
 }
@@ -243,6 +256,23 @@
 }
 .partie_resturants .resturants .resturants__contenu {
   padding-bottom: 50px;
+  /*.cards__btn{
+      .resturants__coeur{ 
+          right: 9%;
+          font-size: 2em;
+          margin-top: 48%;
+          margin-right: 2%;
+      }  
+  }
+  .cards__btnanim{
+      .resturants__coeuranim{
+          right: 9%;
+          font-size: 2em;
+          margin-top: 48%;
+          margin-right: 2%;
+      }
+  }
+    */
 }
 .partie_resturants .resturants .resturants__contenu a {
   text-decoration: none;
@@ -259,18 +289,6 @@
   margin-right: 2%;
   font-weight: 500;
   font-size: 1.2em;
-}
-.partie_resturants .resturants .resturants__contenu .cards__btn .resturants__coeur {
-  right: 9%;
-  font-size: 2em;
-  margin-top: 48%;
-  margin-right: 2%;
-}
-.partie_resturants .resturants .resturants__contenu .cards__btnanim .resturants__coeuranim {
-  right: 9%;
-  font-size: 2em;
-  margin-top: 48%;
-  margin-right: 2%;
 }
 .partie_resturants .resturants .resturants__contenu .ressturants__img {
   width: 100%;
